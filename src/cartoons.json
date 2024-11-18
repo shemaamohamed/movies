@@ -1,0 +1,111 @@
+[
+    {
+        "title": {
+            "English": "Toy Story",
+            "Arabic": "قصة لعبة"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+        "description": {
+            "English": "A story about the secret life of toys when people are not around.",
+            "Arabic": ".قصة عن الحياة السرية للألعاب عندما لا يكون الناس حولها"
+        },
+        "video": "https://www.youtube.com/watch?v=jx_ArTi9MwE"
+    },
+    {
+        "title": {
+            "English": "Up",
+            "Arabic": "فوق"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/05/Up_%282009_film%29.jpg",
+        "description": {
+            "English": "An elderly man named Carl achieves his lifelong dream of tying thousands of balloons to his house and flying to South America, only to discover a young stowaway named Russell.",
+            "Arabic": ".رجل مسن يدعى كارل يحقق حلم حياته بربط آلاف البالونات بمنزله والطيران إلى أمريكا الجنوبية، ليكتشف وجود رفيق صغير يدعى راسل"
+        },
+        "video": "https://www.youtube.com/watch?v=HWEW_qTLSEE"
+    },
+    {
+        "title": {
+            "English": "Frozen",
+            "Arabic": "مجمدة"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/05/Frozen_%282013_film%29_poster.jpg",
+        "description": {
+            "English": "Young princess Anna embarks on an epic journey with ice seller Kristoff to find her sister Elsa, whose icy powers have trapped their kingdom in eternal winter.",
+            "Arabic": ".الأميرة الشابة آنا تنطلق في رحلة ملحمية مع بائع الثلج كريستوف للبحث عن شقيقتها إلسا، التي تسببت قواها الجليدية في حبس مملكتهم في شتاء أبدي"
+        },
+        "video": "https://www.youtube.com/watch?v=TbQm5doF_Uc"
+    },
+    {
+        "title": {
+            "English": "Finding Nemo",
+            "Arabic": "البحث عن نيمو"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
+        "description": {
+            "English": "A clownfish named Marlin teams up with a forgetful fish named Dory to find his missing son Nemo in the vast ocean.",
+            "Arabic": ".سمكة مهرج تدعى مارلين تتعاون مع سمكة ناسية تدعى دوري للعثور على ابنه المفقود نيمو في المحيط الواسع"
+        },
+        "video": "https://www.youtube.com/watch?v=wZdpNglLbt8"
+    },
+    {
+        "title": {
+            "English": "The Lion King",
+            "Arabic": "الأسد الملك"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
+        "description": {
+            "English": "A young lion prince named Simba flees his kingdom after the death of his father, only to learn the importance of responsibility and bravery.",
+            "Arabic": ".شبل أسد يدعى سيمبا يهرب من مملكته بعد وفاة والده، ليتعلم أهمية المسؤولية والشجاعة"
+        },
+        "video": "https://www.youtube.com/watch?v=lFzVJEksoDY"
+    },
+    {
+        "title": {
+            "English": "Inside Out",
+            "Arabic": "من الداخل للخارج"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg",
+        "description": {
+            "English": "The story of Riley and the emotions inside her mind: Joy, Sadness, Fear, Anger, and Disgust, as they navigate her life changes.",
+            "Arabic": ".قصة رايلي والمشاعر داخل عقلها: الفرح، الحزن، الخوف، الغضب، والاشمئزاز أثناء تعاملهم مع تغييرات حياتها"
+        },
+        "video": "https://www.youtube.com/watch?v=seMwpP0yeu4"
+    },
+    {
+        "title": {
+            "English": "Moana",
+            "Arabic": "موانا"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg",
+        "description": {
+            "English": "Moana, a spirited teenager, embarks on a daring voyage to save her people, guided by the demigod Maui.",
+            "Arabic": ".موانا، مراهقة مفعمة بالحيوية، تخوض رحلة جريئة لإنقاذ شعبها، بمساعدة نصف الإله ماوي"
+        },
+        "video": "https://www.youtube.com/watch?v=LKFuXETZUsI"
+    },
+    {
+        "title": {
+            "English": "Coco",
+            "Arabic": "كوكو"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg",
+        "description": {
+            "English": "A young boy named Miguel dreams of becoming a musician and ventures into the Land of the Dead to uncover his family’s history.",
+            "Arabic": ".طفل صغير يدعى ميغيل يحلم بأن يصبح موسيقيًا وينطلق في رحلة إلى أرض الموتى للكشف عن تاريخ عائلته"
+        },
+        "video": "https://www.youtube.com/watch?v=Rvr68u6k5sI"
+    },
+    {
+        "title": {
+            "English": "Ratatouille",
+            "Arabic": "راتاتوي"
+        },
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
+        "description": {
+            "English": "Remy, a rat with a passion for cooking, forms an unlikely partnership with a young kitchen worker to create culinary masterpieces in a famous Parisian restaurant.",
+            "Arabic": ".ريمي، فأر شغوف بالطهي، يشكل شراكة غير متوقعة مع شاب يعمل في المطبخ لإنشاء روائع طهي في مطعم باريس الشهير"
+        },
+        "video": "https://www.youtube.com/watch?v=niD-jahFURU"
+    }
+  
+]
