@@ -13,7 +13,7 @@ const useStyles = makeStyles({
         maxWidth:'100% !important',
         minWidth:'100%',
         backgroundImage: `url(${background})`,
-        height: '90vh',
+        height: '70vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -21,12 +21,13 @@ const useStyles = makeStyles({
     },
     welcomeContent: {
         textAlign: 'center',
-        backgroundColor: 'rgba(255, 255, 255, 0.2)',
-        backdropFilter: 'blur(10px)',
         padding: '20px',
         borderRadius: '10px',
+        backgroundColor: 'rgba(255, 255, 255, 0.2)',
+        backdropFilter: 'blur(10px)',
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
         zIndex: '999',
+        marginTop:'18vh'
 
     },
     colorfulText: {

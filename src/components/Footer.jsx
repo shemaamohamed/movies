@@ -13,7 +13,7 @@ import getTheme from '../Theme';
 const useStyles = makeStyles({
    AppBar:{
     width: '100%',
-    height: '30vh',
+    height: '20vh',
     marginTop: '20px',
     position: 'relative !important',
     backgroundImage: `url(${background}) !important` ,

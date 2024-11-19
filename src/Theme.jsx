@@ -16,6 +16,7 @@ const getTheme = (language) =>
       h6: {
         color: '#2E63A4',
         zIndex: 999,
+        fontSize: '1.1rem',
       },
     },
     palette: {
@@ -30,8 +31,10 @@ const getTheme = (language) =>
       MuiAppBar: {
         styleOverrides: {
           root: {
-            boxShadow: 'none',
             direction: language === 'Arabic' ? 'rtl' : 'ltr', // RTL or LTR support
+            backgroundColor: 'rgba(255, 255, 255, 0.2)',
+            backdropFilter: 'blur(10px)',
+            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
 
           },
         },
