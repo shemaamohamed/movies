@@ -6,6 +6,7 @@ const getTheme = (language) =>
     typography: {
       fontFamily: language === 'Arabic' ? 'El Messiri, sans-serif' : 'Poppins',
       h1: {
+        color: '#2E63A4',
         fontSize: '2rem',
         fontWeight: 500,
       },
@@ -45,9 +46,14 @@ const getTheme = (language) =>
             textTransform: 'none',
             borderRadius: 0,
             backgroundColor: '#60BFF5',
+            "&:hover": {
+              backgroundColor: '#FFCE00',
+              color: '#FFFFFF',
+            },
           },
         },
       },
+      
     },
   });
 

@@ -7,6 +7,7 @@ import LoginPage from './pages/LoginPage';
 import { useEffect, useState } from 'react';
 import getTheme from './Theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
+import AddMovie from './components/AddMovie';
 function App() {
     const [language, setLanguage] = useState(localStorage.getItem('Language') || 'English');
 
@@ -22,7 +23,9 @@ function App() {
             <Routes>
                     <Route path="/" element={<HomePage language={language} />} />
                     <Route path="/login" element={<LoginPage language={language} />} />
-                    <Route path="/:title" element={<MoviePage language={language} />} />   
+                    <Route path="/:title" element={<MoviePage language={language} />} /> 
+                    <Route path="/addmovie" element={<AddMovie language={language} />} /> 
+
             </Routes>
             <Footer language={language} />
         </BrowserRouter>

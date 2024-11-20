@@ -15,8 +15,11 @@ const StyledCard = styled(Card)(({ theme }) => ({
     marginBottom: theme.spacing(2),
     borderRadius: '5px',
     boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-    transition: '0.7s',
+    transition: '0.1s',
     backgroundImage:`url(${background})`,
+    "&:hover": {
+        transform: 'scale(1.1)',
+        },
 
     
     
@@ -67,6 +70,9 @@ function Movies({language}) {
                                     height: '100%', 
                                     width: '100%', 
                                     objectFit: 'contain',
+                                    transition: '0.1s ease-in-out',
+                                    
+                                
 
 
                                 }}
@@ -80,20 +86,21 @@ function Movies({language}) {
                             <>
                                 <CardContent
                                 sx={{
-                                    height:'100%'
+                                    height:'100%',
+                                    
                                 }}
                                 >
-<Typography  variant="h6" >
-  {cartoon.title[language]}
-</Typography>
-<Typography variant="body2" sx={{ maxHeight: '10em', overflow: 'hidden', textOverflow: 'ellipsis' }} color="textSecondary" component="p">
-  {cartoon.description[language]}
-</Typography>
-<Link to={`/${cartoon.title[language]}`} style={{ textDecoration: 'none' }}>
-  <Button size="large" color="primary" >
-    {language === 'Arabic' ? 'شاهد الفيلم' : 'Watch Movie'}
-  </Button>
-</Link>
+                                    <Typography  variant="h6" >
+                                    {cartoon.title[language]}
+                                    </Typography>
+                                    <Typography variant="body2" sx={{ maxHeight: '10em', overflow: 'hidden', textOverflow: 'ellipsis' }} color="textSecondary" component="p">
+                                    {cartoon.description[language]}
+                                    </Typography>
+                                    <Link to={`/${cartoon.title[language]}`} style={{ textDecoration: 'none' }}>
+                                    <Button size="large" color="primary" >
+                                        {language === 'Arabic' ? 'شاهد الفيلم' : 'Watch Movie'}
+                                    </Button>
+                                    </Link>
                                     
 
                                 </CardContent>
