@@ -1,6 +1,6 @@
-[
+{"cartoons":[
     {
-      "movieId": 1,
+      "id": 1,
       "title": {
         "English": "Snow White and the Seven Dwarfs",
         "Arabic": "سنو وايت والأقزام السبعة"
@@ -19,7 +19,7 @@
       }
     },
     {
-      "movieId": 2,
+      "id": 2,
       "title": {
         "English": "Pinocchio",
         "Arabic": "بينوكيو"
@@ -36,7 +36,7 @@
       }
     },
     {
-      "movieId": 4,
+      "id": 4,
       "title": {
         "English": "Dumbo",
         "Arabic": "دامبو"
@@ -53,7 +53,7 @@
       }
     },
     {
-      "movieId": 5,
+      "id": 5,
       "title": {
         "English": "Bambi",
         "Arabic": "بامبي"
@@ -70,7 +70,7 @@
       }
     },
     {
-      "movieId": 8,
+      "id": 8,
       "title": {
         "English": "The Three Caballeros",
         "Arabic": "الفرسان الثلاثة"
@@ -87,7 +87,7 @@
       }
     },
     {
-      "movieId": 9,
+      "id": 9,
       "title": {
         "English": "Make Mine Music",
         "Arabic": "اصنع لي موسيقى"
@@ -104,7 +104,7 @@
       }
     },
     {
-      "movieId": 10,
+      "id": 10,
       "title": {
         "English": "So Dear to My Heart",
         "Arabic": "عزيز جداً على قلبي"
@@ -121,7 +121,7 @@
       }
     },
     {
-      "movieId": 11,
+      "id": 11,
       "title": {
         "English": "The Adventures of Ichabod and Mr. Toad",
         "Arabic": "مغامرات إيكابود والسيد تود"
@@ -138,7 +138,7 @@
       }
     },
     {
-      "movieId": 12,
+      "id": 12,
       "title": {
         "English": "Cinderella",
         "Arabic": "سندريلا"
@@ -155,7 +155,7 @@
       }
     },
     {
-      "movieId": 13,
+      "id": 13,
       "title": {
         "English": "Alice in Wonderland",
         "Arabic": "أليس في بلاد العجائب"
@@ -172,7 +172,7 @@
       }
     },
     {
-      "movieId": 14,
+      "id": 14,
       "title": {
         "English": "Peter Pan",
         "Arabic": "بيتر بان"
@@ -189,7 +189,7 @@
       }
     },
     {
-      "movieId": 15,
+      "id": 15,
       "title": {
         "English": "Lady and the Tramp",
         "Arabic": "السيدة والمتشرد"
@@ -206,7 +206,7 @@
       }
     },
     {
-      "movieId": 16,
+      "id": 16,
       "title": {
         "English": "Sleeping Beauty",
         "Arabic": "الجميلة النائمة"
@@ -223,7 +223,7 @@
       }
     },
     {
-      "movieId": 17,
+      "id": 17,
       "title": {
         "English": "One Hundred and One Dalmatians",
         "Arabic": "مائة وواحد من الكلاب المرقطة"
@@ -240,7 +240,7 @@
       }
     },
     {
-      "movieId": 18,
+      "id": 18,
       "title": {
         "English": "The Sword in the Stone",
         "Arabic": "السيف في الحجر"
@@ -257,7 +257,7 @@
       }
     },
     {
-      "movieId": 19,
+      "id": 19,
       "title": {
         "English": "The Jungle Book",
         "Arabic": "كتاب الأدغال"
@@ -274,7 +274,7 @@
       }
     },
     {
-      "movieId": 20,
+      "id": 20,
       "title": {
         "English": "The AristoCats",
         "Arabic": "القطط الأرستقراطية"
@@ -291,7 +291,7 @@
       }
     },
     {
-      "movieId": 21,
+      "id": 21,
       "title": {
         "English": "Robin Hood",
         "Arabic": "روبن هود"
@@ -308,7 +308,7 @@
       }
     },
     {
-      "movieId": 22,
+      "id": 22,
       "title": {
         "English": "The Rescuers",
         "Arabic": "المنقذون"
@@ -325,7 +325,7 @@
       }
     },
     {
-      "movieId": 23,
+      "id": 23,
       "title": {
         "English": "The Many Adventures of Winnie the Pooh",
         "Arabic": "مغامرات ويني الدبدوب العديدة"
@@ -342,7 +342,7 @@
       }
     },
     {
-      "movieId": 24,
+      "id": 24,
       "title": {
         "English": "The Fox and the Hound",
         "Arabic": "الثعلب والكلب"
@@ -359,7 +359,7 @@
       }
     },
     {
-      "movieId": 25,
+      "id": 25,
       "title": {
         "English": "The Black Cauldron",
         "Arabic": "المرجل الأسود"
@@ -376,7 +376,7 @@
       }
     },
     {
-      "movieId": 26,
+      "id": 26,
       "title": {
         "English": "The Great Mouse Detective",
         "Arabic": "المحقق الفأر العظيم"
@@ -393,7 +393,7 @@
       }
     },
     {
-      "movieId": 27,
+      "id": 27,
       "title": {
         "English": "Who Framed Roger Rabbit",
         "Arabic": "من أطر روجر رابيت"
@@ -410,7 +410,7 @@
       }
     },
     {
-      "movieId": 28,
+      "id": 28,
       "title": {
         "English": "Oliver & Company",
         "Arabic": "أوليفر وشركاه"
@@ -427,7 +427,7 @@
       }
     },
     {
-      "movieId": 29,
+      "id": 29,
       "title": {
         "English": "The Little Mermaid",
         "Arabic": "حورية البحر الصغيرة"
@@ -444,7 +444,7 @@
       }
     },
     {
-      "movieId": 30,
+      "id": 30,
       "title": {
         "English": "The Rescuers Down Under",
         "Arabic": "المنقذون في أستراليا"
@@ -461,7 +461,7 @@
       }
     },
     {
-      "movieId": 31,
+      "id": 31,
       "title": {
         "English": "DuckTales the Movie: Treasure of the Lost Lamp",
         "Arabic": "قصص البط: كنز المصباح المفقود"
@@ -478,7 +478,7 @@
       }
     },
     {
-      "movieId": 32,
+      "id": 32,
       "title": {
         "English": "Beauty and the Beast",
         "Arabic": "الجميلة والوحش"
@@ -495,7 +495,7 @@
       }
     },
     {
-      "movieId": 33,
+      "id": 33,
       "title": {
         "English": "Aladdin",
         "Arabic": "علاء الدين"
@@ -512,7 +512,7 @@
       }
     },
     {
-      "movieId": 34,
+      "id": 34,
       "title": {
         "English": "The Lion King",
         "Arabic": "الملك الأسد"
@@ -529,7 +529,7 @@
       }
     },
     {
-      "movieId": 35,
+      "id": 35,
       "title": {
         "English": "Pocahontas",
         "Arabic": "بوكاهونتس"
@@ -546,7 +546,7 @@
       }
     },
     {
-      "movieId": 36,
+      "id": 36,
       "title": {
         "English": "A Goofy Movie",
         "Arabic": "فيلم بندق"
@@ -563,7 +563,7 @@
       }
     },
     {
-      "movieId": 37,
+      "id": 37,
       "title": {
         "English": "The Hunchback of Notre Dame",
         "Arabic": "أحدب نوتردام"
@@ -580,7 +580,7 @@
       }
     },
     {
-      "movieId": 38,
+      "id": 38,
       "title": {
         "English": "Hercules",
         "Arabic": "هرقل"
@@ -597,7 +597,7 @@
       }
     },
     {
-      "movieId": 39,
+      "id": 39,
       "title": {
         "English": "Mulan",
         "Arabic": "مولان"
@@ -614,7 +614,7 @@
       }
     },
     {
-      "movieId": 40,
+      "id": 40,
       "title": {
         "English": "Tarzan",
         "Arabic": "طرزان"
@@ -631,7 +631,7 @@
       }
     },
     {
-      "movieId": 41,
+      "id": 41,
       "title": {
         "English": "Fantasia 2000",
         "Arabic": "فانتازيا ٢٠٠٠"
@@ -648,7 +648,7 @@
       }
     },
     {
-      "movieId": 42,
+      "id": 42,
       "title": {
         "English": "Dinosaur",
         "Arabic": "ديناصور"
@@ -665,7 +665,7 @@
       }
     },
     {
-      "movieId": 43,
+      "id": 43,
       "title": {
         "English": "The Emperor's New Groove",
         "Arabic": "مظهر الإمبراطور الجديد"
@@ -682,7 +682,7 @@
       }
     },
     {
-      "movieId": 44,
+      "id": 44,
       "title": {
         "English": "Atlantis: The Lost Empire",
         "Arabic": "أطلانتس: الإمبراطورية المفقودة"
@@ -699,7 +699,7 @@
       }
     },
     {
-      "movieId": 45,
+      "id": 45,
       "title": {
         "English": "Lilo & Stitch",
         "Arabic": "ليلو وستيتش"
@@ -716,7 +716,7 @@
       }
     },
     {
-      "movieId": 46,
+      "id": 46,
       "title": {
         "English": "Treasure Planet",
         "Arabic": "كوكب الكنز"
@@ -733,7 +733,7 @@
       }
     },
     {
-      "movieId": 47,
+      "id": 47,
       "title": {
         "English": "Return to Never Land",
         "Arabic": "العودة إلى نيفرلاند"
@@ -750,7 +750,7 @@
       }
     },
     {
-      "movieId": 48,
+      "id": 48,
       "title": {
         "English": "Brother Bear",
         "Arabic": "الأخ الدب"
@@ -766,7 +766,7 @@
         "Arabic": "٦.٨"
       }
     }, {
-        "movieId": 49,
+        "id": 49,
         "title": {
           "English": "The Jungle Book 2",
           "Arabic": "كتاب الأدغال 2"
@@ -783,7 +783,7 @@
         }
       },
       {
-        "movieId": 50,
+        "id": 50,
         "title": {
           "English": "Valiant",
           "Arabic": "فاليانت"
@@ -800,7 +800,7 @@
         }
       },
       {
-        "movieId": 51,
+        "id": 51,
         "title": {
           "English": "Home on the Range",
           "Arabic": "في المنزل على المدى"
@@ -818,7 +818,7 @@
       },
       
       {
-        "movieId": 53,
+        "id": 53,
         "title": {
           "English": "The Wild",
           "Arabic": "البرية"
@@ -835,7 +835,7 @@
         }
       },
       {
-        "movieId": 54,
+        "id": 54,
         "title": {
           "English": "Meet the Robinsons",
           "Arabic": "تعرف على عائلة روبنسون"
@@ -852,7 +852,7 @@
         }
       },
       {
-        "movieId": 55,
+        "id": 55,
         "title": {
           "English": "Roadside Romeo",
           "Arabic": "روميو على جانب الطريق"
@@ -869,7 +869,7 @@
         }
       },
       {
-        "movieId": 56,
+        "id": 56,
         "title": {
           "English": "Bolt",
           "Arabic": "بولت"
@@ -886,7 +886,7 @@
         }
       },
       {
-        "movieId": 57,
+        "id": 57,
         "title": {
           "English": "A Christmas Carol",
           "Arabic": "ترنيمة عيد الميلاد"
@@ -903,7 +903,7 @@
         }
       },
       {
-        "movieId": 58,
+        "id": 58,
         "title": {
           "English": "The Princess and the Frog",
           "Arabic": "الأميرة والضفدع"
@@ -920,7 +920,7 @@
         }
       },
       {
-        "movieId": 59,
+        "id": 59,
         "title": {
           "English": "Tangled",
           "Arabic": "رابنزل"
@@ -937,7 +937,7 @@
         }
       },
       {
-        "movieId": 60,
+        "id": 60,
         "title": {
           "English": "Mars Needs Moms",
           "Arabic": "المريخ يحتاج إلى أمهات"
@@ -954,7 +954,7 @@
         }
       },
       {
-        "movieId": 61,
+        "id": 61,
         "title": {
           "English": "Winnie the Pooh",
           "Arabic": "ويني ذا بوه"
@@ -971,7 +971,7 @@
         }
       },
       {
-        "movieId": 62,
+        "id": 62,
         "title": {
           "English": "Arjun: The Warrior Prince",
           "Arabic": "أرجون: الأمير المحارب"
@@ -988,7 +988,7 @@
         }
       },
       {
-        "movieId": 63,
+        "id": 63,
         "title": {
           "English": "Frankenweenie",
           "Arabic": "فرانكنويني"
@@ -1005,7 +1005,7 @@
         }
       },
       {
-        "movieId": 64,
+        "id": 64,
         "title": {
           "English": "Wreck-It Ralph",
           "Arabic": "ريك-إت رالف"
@@ -1022,7 +1022,7 @@
         }
       },
       {
-        "movieId": 65,
+        "id": 65,
         "title": {
           "English": "Frozen",
           "Arabic": "فروزن"
@@ -1039,7 +1039,7 @@
         }
       },
       {
-        "movieId": 66,
+        "id": 66,
         "title": {
           "English": "Big Hero 6",
           "Arabic": "بيغ هيرو 6"
@@ -1056,7 +1056,7 @@
         }
       },
       {
-        "movieId": 67,
+        "id": 67,
         "title": {
           "English": "Zootopia",
           "Arabic": "زوتوبيا"
@@ -1073,7 +1073,7 @@
         }
       },
       {
-        "movieId": 68,
+        "id": 68,
         "title": {
           "English": "Moana",
           "Arabic": "موانا"
@@ -1090,7 +1090,7 @@
         }
       },
       {
-        "movieId": 69,
+        "id": 69,
         "title": {
           "English": "Ralph Breaks the Internet",
           "Arabic": "رالف يكسر الإنترنت"
@@ -1107,7 +1107,7 @@
         }
       },
       {
-        "movieId": 70,
+        "id": 70,
         "title": {
           "English": "Frozen II",
           "Arabic": "فروزن 2"
@@ -1124,7 +1124,7 @@
         }
       },
       {
-        "movieId": 71,
+        "id": 71,
         "title": {
           "English": "Raya and the Last Dragon",
           "Arabic": "رايا والتنين الأخير"
@@ -1141,7 +1141,7 @@
         }
       },
       {
-        "movieId": 72,
+        "id": 72,
         "title": {
           "English": "Encanto",
           "Arabic": "إنكانتو"
@@ -1159,3 +1159,4 @@
       }
     
 ]
+}

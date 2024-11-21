@@ -3,7 +3,7 @@ import { Container, Typography, Box } from '@mui/material';
 import ReactPlayer from 'react-player';
 import { useParams } from 'react-router-dom';
 import { makeStyles } from '@mui/styles';
-import cartoons from '../cartoons.json'; // Ensure the path is correct
+import { useSelector } from 'react-redux';
 
 const useStyles = makeStyles({
     Box: {
@@ -16,6 +16,7 @@ const useStyles = makeStyles({
 const MoviePage = ({ language }) => {
     const { title } = useParams();
     const classes = useStyles();
+    const cartoons = useSelector((state) => state.movies.movies);
     const movie = cartoons.find(cartoon => cartoon.title.English === title || cartoon.title.Arabic === title);
 
     if (!movie) {

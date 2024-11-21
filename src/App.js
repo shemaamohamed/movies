@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 import getTheme from './Theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import AddMovie from './components/AddMovie';
+
 function App() {
     const [language, setLanguage] = useState(localStorage.getItem('Language') || 'English');
 
@@ -30,6 +31,7 @@ function App() {
             <Footer language={language} />
         </BrowserRouter>
             </ThemeProvider>
+    
 
         
         )

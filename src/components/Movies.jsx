@@ -2,12 +2,14 @@ import Grid from '@mui/material/Grid2';
 import * as React from 'react';
 import {  styled } from '@mui/material/styles';
 import { Typography, Card, CardMedia, CardContent, Button } from '@mui/material';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import background from '../assets/Wallpaper.png'
 import { Link } from 'react-router-dom';
-import cartoons from '../cartoons.json'
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
+import axios from 'axios';
+import { useDispatch, useSelector } from "react-redux";
+import { setMovies } from "../store/slices/MoviesSlice";
 const StyledCard = styled(Card)(({ theme }) => ({
     margin: 'auto',
     height: '300px',
@@ -27,7 +29,17 @@ const StyledCard = styled(Card)(({ theme }) => ({
 
 function Movies({language}) {
     const [hoveredIndex, setHoveredIndex] = useState(null);
-    const [page, setPage] = React.useState(1);
+    const [page, setPage] = useState(1);
+    const cartoons = useSelector((state) => state.movies.movies);
+    const dispatch = useDispatch();
+    useEffect(() => {
+        axios.get('http://localhost:7000/cartoons')
+        .then((response) => {
+            dispatch(setMovies(response.data));
+        }).catch((error) => {
+            console.error('Error fetching data: ', error);
+        });
+    }, [dispatch]);
     const filteredCartoons = cartoons.slice((page - 1) * 6, page * 6);
     const arabicPage={
         '1':'الصفحة الأولى',
@@ -43,6 +55,7 @@ function Movies({language}) {
         '11':'الصفحة الحادية عشر',
         '12':'الصفحة الثانية عشر',
     }
+
  
    
   const handleChange = (event, value) => {
@@ -96,7 +109,7 @@ function Movies({language}) {
                                     <Typography variant="body2" sx={{ maxHeight: '10em', overflow: 'hidden', textOverflow: 'ellipsis' }} color="textSecondary" component="p">
                                     {cartoon.description[language]}
                                     </Typography>
-                                    <Link to={`/${cartoon.title[language]}`} style={{ textDecoration: 'none' }}>
+                                    <Link to={`/${cartoon.title[language]}`}  style={{ textDecoration: 'none' }}>
                                     <Button size="large" color="primary" >
                                         {language === 'Arabic' ? 'شاهد الفيلم' : 'Watch Movie'}
                                     </Button>
