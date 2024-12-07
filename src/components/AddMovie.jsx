@@ -1,6 +1,9 @@
 import { Button, Container,  TextField , Typography} from '@mui/material';
 import React, { useEffect, useRef } from 'react';
 import Grid from '@mui/material/Grid2';
+import {  useSnackbar } from 'notistack';
+
+
 
 import { Form, Formik } from 'formik';
 import * as yup from 'yup';
@@ -8,7 +11,8 @@ import axios from 'axios';
 
 
 const isArabic = (text) => /[\u0600-\u06FF]/.test(text); 
-const isEnglish = (text) => /^[A-Za-z\s]+$/.test(text); 
+const isEnglish = (text) => /^[A-Za-z\s.,]+$/.test(text);
+
 
 const getValidationSchema = (language) => {
   const commonValidation = yup
@@ -42,9 +46,13 @@ return yup.object().shape({
 function AddMovie({language}) {
     const validationSchema = getValidationSchema(language);
     const formikRef = useRef(null);
+    const { enqueueSnackbar } = useSnackbar();
+    const handleClickVariant = () =>  {
+        console.log('clicked');
+        enqueueSnackbar(language === 'English' ? 'Movie added successfully' : 'تمت إضافة الفيلم بنجاح', { variant: 'success' ,autoHideDuration: 2000});
+      };
 
 
-  // Reset the form when language changes using formikRef
   useEffect(() => {
     if (formikRef.current) {
         formikRef.current.resetForm();
@@ -84,10 +92,38 @@ function AddMovie({language}) {
 
         }}
         validationSchema={validationSchema}
-        onSubmit={(values) => {
+        onSubmit={(values,{ resetForm }) => {
           const { EnglishTitle, ArabicTitle, EnglishDescription, ArabicDescription, image, video } = values;
+          const movie= {
+                tittle:{
+                    English: EnglishTitle,
+                    Arabic: ArabicTitle
+                },
+                description:{
+                   English:EnglishDescription,
+                   Arabic: ArabicDescription
+                },
+                image: image,
+                video: video,
+                
 
-            axios.post('http://localhost:7000/movies', values)    
+
+
+          }
+
+            axios.post('http://localhost:7000/cartoons', movie,
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            }).then((response) => {
+                handleClickVariant();
+                resetForm();
+                console.log(response);
+            }).catch((error) => {
+                console.log(error);
+            }
+            )    
         }
         
     }>

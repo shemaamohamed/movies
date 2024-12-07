@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 import getTheme from './Theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import AddMovie from './components/AddMovie';
+import { SnackbarProvider } from 'notistack';
 
 function App() {
     const [language, setLanguage] = useState(localStorage.getItem('Language') || 'English');
@@ -18,6 +19,8 @@ function App() {
     const theme =getTheme(language)
   return (
     <ThemeProvider theme={theme}>
+          <SnackbarProvider maxSnack={3}>
+
             <CssBaseline />
             <BrowserRouter>
             <NavHome language={language} setLanguage={setLanguage}  />
@@ -30,6 +33,7 @@ function App() {
             </Routes>
             <Footer language={language} />
         </BrowserRouter>
+        </SnackbarProvider>
             </ThemeProvider>
     
 

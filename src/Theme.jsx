@@ -2,6 +2,7 @@ import { createTheme } from '@mui/material/styles';
 
 const getTheme = (language) =>
   createTheme({
+   
     direction: language === 'Arabic' ? 'rtl' : 'ltr', 
     typography: {
       fontFamily: language === 'Arabic' ? 'El Messiri, sans-serif' : 'Poppins',

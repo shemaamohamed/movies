@@ -46,7 +46,8 @@ function Movies({language}) {
             }
         ,1000)    
     }, [dispatch]);
-    const filteredCartoons = cartoons.slice((page - 1) * 6, page * 6);
+    const filteredCartoons = cartoons.slice((page - 1) * 12, page *12);
+    const count = Math.ceil(cartoons.length / 12);
     const arabicPage={
         '1':'الصفحة الأولى',
         '2':'الصفحة الثانية',
@@ -60,6 +61,14 @@ function Movies({language}) {
         '10':'الصفحة العاشرة',
         '11':'الصفحة الحادية عشر',
         '12':'الصفحة الثانية عشر',
+        '13':'الصفحة الثالثة عشر',
+        '14':'الصفحة الرابعة عشر',
+        '15':'الصفحة الخامسة عشر',
+        '16':'الصفحة السادسة عشر',
+        '17':'الصفحة السابعة عشر',
+        '18':'الصفحة الثامنة عشر',
+        '19':'الصفحة التاسعة عشر',
+        '20':'الصفحة العشرون',
     }
 
  
@@ -68,6 +77,7 @@ function Movies({language}) {
     setPage(value);
     console.log(value);
   };
+  
 
   return (
     <>
@@ -148,7 +158,7 @@ function Movies({language}) {
                                 `Page ${page}`
                             )
                             }</Typography>
-                        <Pagination count={12} page={page} onChange={handleChange} />
+                        <Pagination count={count} page={page} onChange={handleChange} />
                 </Stack>
         </Grid>
     </Grid>

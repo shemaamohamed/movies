@@ -1,6 +1,7 @@
-{"cartoons":[
+{
+  "cartoons": [
     {
-      "id": 1,
+      "id": "1",
       "title": {
         "English": "Snow White and the Seven Dwarfs",
         "Arabic": "سنو وايت والأقزام السبعة"
@@ -10,16 +11,14 @@
         "English": "A beautiful princess, Snow White, takes refuge in the forest in the house of seven dwarfs to hide from her stepmother, the wicked Queen.",
         "Arabic": "أميرة جميلة، سنو وايت، تلجأ إلى الغابة في منزل الأقزام السبعة للاختباء من زوجة أبيها، الملكة الشريرة."
       },
-      "video":"https://www.youtube.com/watch?v=ix7OjfMGmPU"
-
-      ,
+      "video": "https://www.youtube.com/watch?v=ix7OjfMGmPU",
       "rating": {
         "English": "7.6",
         "Arabic": "٧.٦"
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": {
         "English": "Pinocchio",
         "Arabic": "بينوكيو"
@@ -29,14 +28,14 @@
         "English": "A wooden puppet embarks on a thrilling adventure to become a real boy, learning about honesty, bravery, and love along the way.",
         "Arabic": "دمية خشبية تنطلق في مغامرة مثيرة لتصبح صبياً حقيقياً، متعلماً عن الصدق والشجاعة والحب في طريقه."
       },
-      "video":"https://www.youtube.com/watch?v=v8hEdL_BlOo",
+      "video": "https://www.youtube.com/watch?v=v8hEdL_BlOo",
       "rating": {
         "English": "7.5",
         "Arabic": "٧.٥"
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": {
         "English": "Dumbo",
         "Arabic": "دامبو"
@@ -53,7 +52,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": {
         "English": "Bambi",
         "Arabic": "بامبي"
@@ -70,7 +69,7 @@
       }
     },
     {
-      "id": 8,
+      "id": "8",
       "title": {
         "English": "The Three Caballeros",
         "Arabic": "الفرسان الثلاثة"
@@ -87,7 +86,7 @@
       }
     },
     {
-      "id": 9,
+      "id": "9",
       "title": {
         "English": "Make Mine Music",
         "Arabic": "اصنع لي موسيقى"
@@ -104,7 +103,7 @@
       }
     },
     {
-      "id": 10,
+      "id": "10",
       "title": {
         "English": "So Dear to My Heart",
         "Arabic": "عزيز جداً على قلبي"
@@ -121,7 +120,7 @@
       }
     },
     {
-      "id": 11,
+      "id": "11",
       "title": {
         "English": "The Adventures of Ichabod and Mr. Toad",
         "Arabic": "مغامرات إيكابود والسيد تود"
@@ -138,7 +137,7 @@
       }
     },
     {
-      "id": 12,
+      "id": "12",
       "title": {
         "English": "Cinderella",
         "Arabic": "سندريلا"
@@ -155,7 +154,7 @@
       }
     },
     {
-      "id": 13,
+      "id": "13",
       "title": {
         "English": "Alice in Wonderland",
         "Arabic": "أليس في بلاد العجائب"
@@ -172,7 +171,7 @@
       }
     },
     {
-      "id": 14,
+      "id": "14",
       "title": {
         "English": "Peter Pan",
         "Arabic": "بيتر بان"
@@ -189,7 +188,7 @@
       }
     },
     {
-      "id": 15,
+      "id": "15",
       "title": {
         "English": "Lady and the Tramp",
         "Arabic": "السيدة والمتشرد"
@@ -206,7 +205,7 @@
       }
     },
     {
-      "id": 16,
+      "id": "16",
       "title": {
         "English": "Sleeping Beauty",
         "Arabic": "الجميلة النائمة"
@@ -223,7 +222,7 @@
       }
     },
     {
-      "id": 17,
+      "id": "17",
       "title": {
         "English": "One Hundred and One Dalmatians",
         "Arabic": "مائة وواحد من الكلاب المرقطة"
@@ -240,7 +239,7 @@
       }
     },
     {
-      "id": 18,
+      "id": "18",
       "title": {
         "English": "The Sword in the Stone",
         "Arabic": "السيف في الحجر"
@@ -257,7 +256,7 @@
       }
     },
     {
-      "id": 19,
+      "id": "19",
       "title": {
         "English": "The Jungle Book",
         "Arabic": "كتاب الأدغال"
@@ -274,7 +273,7 @@
       }
     },
     {
-      "id": 20,
+      "id": "20",
       "title": {
         "English": "The AristoCats",
         "Arabic": "القطط الأرستقراطية"
@@ -291,7 +290,7 @@
       }
     },
     {
-      "id": 21,
+      "id": "21",
       "title": {
         "English": "Robin Hood",
         "Arabic": "روبن هود"
@@ -308,7 +307,7 @@
       }
     },
     {
-      "id": 22,
+      "id": "22",
       "title": {
         "English": "The Rescuers",
         "Arabic": "المنقذون"
@@ -325,7 +324,7 @@
       }
     },
     {
-      "id": 23,
+      "id": "23",
       "title": {
         "English": "The Many Adventures of Winnie the Pooh",
         "Arabic": "مغامرات ويني الدبدوب العديدة"
@@ -342,7 +341,7 @@
       }
     },
     {
-      "id": 24,
+      "id": "24",
       "title": {
         "English": "The Fox and the Hound",
         "Arabic": "الثعلب والكلب"
@@ -359,7 +358,7 @@
       }
     },
     {
-      "id": 25,
+      "id": "25",
       "title": {
         "English": "The Black Cauldron",
         "Arabic": "المرجل الأسود"
@@ -376,7 +375,7 @@
       }
     },
     {
-      "id": 26,
+      "id": "26",
       "title": {
         "English": "The Great Mouse Detective",
         "Arabic": "المحقق الفأر العظيم"
@@ -393,7 +392,7 @@
       }
     },
     {
-      "id": 27,
+      "id": "27",
       "title": {
         "English": "Who Framed Roger Rabbit",
         "Arabic": "من أطر روجر رابيت"
@@ -410,7 +409,7 @@
       }
     },
     {
-      "id": 28,
+      "id": "28",
       "title": {
         "English": "Oliver & Company",
         "Arabic": "أوليفر وشركاه"
@@ -427,7 +426,7 @@
       }
     },
     {
-      "id": 29,
+      "id": "29",
       "title": {
         "English": "The Little Mermaid",
         "Arabic": "حورية البحر الصغيرة"
@@ -444,7 +443,7 @@
       }
     },
     {
-      "id": 30,
+      "id": "30",
       "title": {
         "English": "The Rescuers Down Under",
         "Arabic": "المنقذون في أستراليا"
@@ -461,7 +460,7 @@
       }
     },
     {
-      "id": 31,
+      "id": "31",
       "title": {
         "English": "DuckTales the Movie: Treasure of the Lost Lamp",
         "Arabic": "قصص البط: كنز المصباح المفقود"
@@ -478,7 +477,7 @@
       }
     },
     {
-      "id": 32,
+      "id": "32",
       "title": {
         "English": "Beauty and the Beast",
         "Arabic": "الجميلة والوحش"
@@ -495,7 +494,7 @@
       }
     },
     {
-      "id": 33,
+      "id": "33",
       "title": {
         "English": "Aladdin",
         "Arabic": "علاء الدين"
@@ -512,7 +511,7 @@
       }
     },
     {
-      "id": 34,
+      "id": "34",
       "title": {
         "English": "The Lion King",
         "Arabic": "الملك الأسد"
@@ -529,7 +528,7 @@
       }
     },
     {
-      "id": 35,
+      "id": "35",
       "title": {
         "English": "Pocahontas",
         "Arabic": "بوكاهونتس"
@@ -546,7 +545,7 @@
       }
     },
     {
-      "id": 36,
+      "id": "36",
       "title": {
         "English": "A Goofy Movie",
         "Arabic": "فيلم بندق"
@@ -563,7 +562,7 @@
       }
     },
     {
-      "id": 37,
+      "id": "37",
       "title": {
         "English": "The Hunchback of Notre Dame",
         "Arabic": "أحدب نوتردام"
@@ -580,7 +579,7 @@
       }
     },
     {
-      "id": 38,
+      "id": "38",
       "title": {
         "English": "Hercules",
         "Arabic": "هرقل"
@@ -597,7 +596,7 @@
       }
     },
     {
-      "id": 39,
+      "id": "39",
       "title": {
         "English": "Mulan",
         "Arabic": "مولان"
@@ -614,7 +613,7 @@
       }
     },
     {
-      "id": 40,
+      "id": "40",
       "title": {
         "English": "Tarzan",
         "Arabic": "طرزان"
@@ -631,7 +630,7 @@
       }
     },
     {
-      "id": 41,
+      "id": "41",
       "title": {
         "English": "Fantasia 2000",
         "Arabic": "فانتازيا ٢٠٠٠"
@@ -648,7 +647,7 @@
       }
     },
     {
-      "id": 42,
+      "id": "42",
       "title": {
         "English": "Dinosaur",
         "Arabic": "ديناصور"
@@ -665,7 +664,7 @@
       }
     },
     {
-      "id": 43,
+      "id": "43",
       "title": {
         "English": "The Emperor's New Groove",
         "Arabic": "مظهر الإمبراطور الجديد"
@@ -682,7 +681,7 @@
       }
     },
     {
-      "id": 44,
+      "id": "44",
       "title": {
         "English": "Atlantis: The Lost Empire",
         "Arabic": "أطلانتس: الإمبراطورية المفقودة"
@@ -699,7 +698,7 @@
       }
     },
     {
-      "id": 45,
+      "id": "45",
       "title": {
         "English": "Lilo & Stitch",
         "Arabic": "ليلو وستيتش"
@@ -716,7 +715,7 @@
       }
     },
     {
-      "id": 46,
+      "id": "46",
       "title": {
         "English": "Treasure Planet",
         "Arabic": "كوكب الكنز"
@@ -733,7 +732,7 @@
       }
     },
     {
-      "id": 47,
+      "id": "47",
       "title": {
         "English": "Return to Never Land",
         "Arabic": "العودة إلى نيفرلاند"
@@ -750,7 +749,7 @@
       }
     },
     {
-      "id": 48,
+      "id": "48",
       "title": {
         "English": "Brother Bear",
         "Arabic": "الأخ الدب"
@@ -765,398 +764,398 @@
         "English": "6.8",
         "Arabic": "٦.٨"
       }
-    }, {
-        "id": 49,
-        "title": {
-          "English": "The Jungle Book 2",
-          "Arabic": "كتاب الأدغال 2"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BNDk2NTk1NzQxN15BMl5BanBnXkFtZTYwMDMyMTg5._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "The adventures of Mowgli continue in this sequel as he ventures into new territories.",
-          "Arabic": "تستمر مغامرات موغلي في هذا التكملة بينما ينطلق إلى أراضٍ جديدة."
-        },
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "rating": {
-          "English": "5.3",
-          "Arabic": "٥.٣"
-        }
+    },
+    {
+      "id": "49",
+      "title": {
+        "English": "The Jungle Book 2",
+        "Arabic": "كتاب الأدغال 2"
       },
-      {
-        "id": 50,
-        "title": {
-          "English": "Valiant",
-          "Arabic": "فاليانت"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BYWQ4ZDVhMDUtNTFjNi00YWE1LWI0NTMtYTZhZTFlZTE2NWY2XkEyXkFqcGdeQXVyNjIzODI5OTQ@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A brave pigeon joins a secret army to fight against the enemy forces.",
-          "Arabic": "يشارك حمامة شجاعة في جيش سري للقتال ضد القوات المعادية."
-        },
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "rating": {
-          "English": "5.5",
-          "Arabic": "٥.٥"
-        }
+      "image": "https://m.media-amazon.com/images/M/MV5BNDk2NTk1NzQxN15BMl5BanBnXkFtZTYwMDMyMTg5._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "The adventures of Mowgli continue in this sequel as he ventures into new territories.",
+        "Arabic": "تستمر مغامرات موغلي في هذا التكملة بينما ينطلق إلى أراضٍ جديدة."
       },
-      {
-        "id": 51,
-        "title": {
-          "English": "Home on the Range",
-          "Arabic": "في المنزل على المدى"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BYWIyNWEwZDctMzkzNC00NzkyLTk5YWUtOWQ5MzBhMGE1NTE4XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A group of cows work together to save their ranch from a notorious criminal.",
-          "Arabic": "يعمل مجموعة من الأبقار معًا لإنقاذ مزرعتهم من مجرم معروف."
-        },
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "rating": {
-          "English": "5.4",
-          "Arabic": "٥.٤"
-        }
-      },
-      
-      {
-        "id": 53,
-        "title": {
-          "English": "The Wild",
-          "Arabic": "البرية"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BMTQ5ODgzNjQ3OF5BMl5BanBnXkFtZTcwNTYyMTQzMQ@@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A group of zoo animals are mistakenly shipped to Africa and must find their way back home.",
-          "Arabic": "يتم شحن مجموعة من الحيوانات إلى أفريقيا عن طريق الخطأ ويجب عليها العودة إلى وطنها."
-        },
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "rating": {
-          "English": "5.2",
-          "Arabic": "٥.٢"
-        }
-      },
-      {
-        "id": 54,
-        "title": {
-          "English": "Meet the Robinsons",
-          "Arabic": "تعرف على عائلة روبنسون"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BMjQyNzdmNmUtODkwMi00NWM2LWIzNTAtMWY3OTVmM2Q5NTUyXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A young boy invents a time machine and travels to the future, meeting a family of strange characters.",
-          "Arabic": "يخترع صبي آلة زمن ويسافر إلى المستقبل حيث يلتقي بعائلة من الشخصيات الغريبة."
-        },
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "rating": {
-          "English": "6.8",
-          "Arabic": "٦.٨"
-        }
-      },
-      {
-        "id": 55,
-        "title": {
-          "English": "Roadside Romeo",
-          "Arabic": "روميو على جانب الطريق"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BOTlhNjM4NTYtZmRlNC00Y2UwLWFhY2QtNDM2NDFiZjU1OWQ4XkEyXkFqcGdeQXVyMjAzMjcxNTE@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A stray dog in Mumbai attempts to find love while facing the challenges of the streets.",
-          "Arabic": "يحاول كلب ضال في مومباي أن يجد الحب بينما يواجه تحديات الشوارع."
-        },
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "rating": {
-          "English": "4.8",
-          "Arabic": "٤.٨"
-        }
-      },
-      {
-        "id": 56,
-        "title": {
-          "English": "Bolt",
-          "Arabic": "بولت"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BNDQyNDE5NjQ1N15BMl5BanBnXkFtZTcwMDExMTAwMg@@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A dog who stars in a fictional TV show believes he has superpowers and goes on an adventure to save his owner.",
-          "Arabic": "كلب يعتقد أنه يمتلك قوى خارقة ويتوجه في مغامرة لإنقاذ مالكه."
-        },
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "rating": {
-          "English": "6.8",
-          "Arabic": "٦.٨"
-        }
-      },
-      {
-        "id": 57,
-        "title": {
-          "English": "A Christmas Carol",
-          "Arabic": "ترنيمة عيد الميلاد"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BMTM1MTI5ODU4MV5BMl5BanBnXkFtZTcwNTYyNTU4Mg@@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "The classic Charles Dickens tale of Ebenezer Scrooge and his redemption at Christmas.",
-          "Arabic": "القصة الكلاسيكية لتشارلز ديكنز عن إيبينيزر سكروج وتوبته في عيد الميلاد."
-        },
-        "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "rating": {
-          "English": "6.8",
-          "Arabic": "٦.٨"
-        }
-      },
-      {
-        "id": 58,
-        "title": {
-          "English": "The Princess and the Frog",
-          "Arabic": "الأميرة والضفدع"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BNmJkZjk1OTUtNzQ3NC00M2I1LTgzNTQtYzk4MmMyNDk0MTY3XkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A hardworking waitress gets transformed into a frog after kissing a prince who has been turned into one by an evil witch.",
-          "Arabic": "تحولت نادلة مجتهدة إلى ضفدع بعد أن قبّلت أميرًا تم تحويله إلى ضفدع بواسطة ساحرة شريرة."
-        },
-        "video": "https://www.youtube.com/watch?v=8KfheU7VdC0",
-        "rating": {
-          "English": "7.1",
-          "Arabic": "7.1"
-        }
-      },
-      {
-        "id": 59,
-        "title": {
-          "English": "Tangled",
-          "Arabic": "رابنزل"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BZjcyYTk0MzEtNTI1MS00MTBhLWJkYjItNzUzMTQ4MzI5MzEyXkEyXkFqcGdeQXVyOTU2NDAzNDE@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A young runaway princess with magical long golden hair, a bandit, and a horse embark on a journey to find her real parents and the truth about her past.",
-          "Arabic": "أميرة شابة هاربة ذات شعر ذهبي سحري طويل، مع لص وحصان ينطلقون في رحلة للعثور على والديها الحقيقيين واكتشاف حقيقة ماضيها."
-        },
-        "video": "https://www.youtube.com/watch?v=fiHqUwAJ6Ck",
-        "rating": {
-          "English": "7.7",
-          "Arabic": "7.7"
-        }
-      },
-      {
-        "id": 60,
-        "title": {
-          "English": "Mars Needs Moms",
-          "Arabic": "المريخ يحتاج إلى أمهات"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BOTA0MTQ2Mzc3N15BMl5BanBnXkFtZTcwNzA4ODAwNA@@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A young boy named Milo teams up with a Martian teenager to save his mom from an evil race of Martians who are planning to steal her memories.",
-          "Arabic": "يتعاون فتى شاب يدعى ميلو مع مراهق من المريخ لإنقاذ والدته من عرق شرير من المريخيين الذين يخططون لسرقة ذكرياتها."
-        },
-        "video": "https://www.youtube.com/watch?v=RYFF47FT4lA",
-        "rating": {
-          "English": "5.4",
-          "Arabic": "5.4"
-        }
-      },
-      {
-        "id": 61,
-        "title": {
-          "English": "Winnie the Pooh",
-          "Arabic": "ويني ذا بوه"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BYzBlYTJkMGQtYzQ4MS00Zjk3LTk4MmEtYTZiNTEzNmRlMjUxXkEyXkFqcGdeQXVyMzI0NDc4ODY@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "Winnie the Pooh and his friends try to rescue Christopher Robin from an imaginary creature called the 'Backson.'",
-          "Arabic": "يستعين ويني ذا بوه وأصدقاؤه لإنقاذ كريستوفر روبين من مخلوق خيالي يُسمى 'باكسون'."
-        },
-        "video": "https://www.youtube.com/watch?v=Lfdi_pWqN78",
-        "rating": {
-          "English": "7.1",
-          "Arabic": "7.1"
-        }
-      },
-      {
-        "id": 62,
-        "title": {
-          "English": "Arjun: The Warrior Prince",
-          "Arabic": "أرجون: الأمير المحارب"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BNzQ5NjMyOWUtNTE5Yy00NjhmLWJmMjAtM2Q1MmMwNDZjMDIxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "The story of the great warrior Arjun, his battles, and his heroic journey in the Mahabharata, one of the greatest epics of India.",
-          "Arabic": "قصة المحارب العظيم أرجون، معاركه، ورحلته البطولية في المهابهاراتا، أحد أعظم الأساطير الهندية."
-        },
-        "video": "https://www.youtube.com/watch?v=g_YlHtFGxmw",
-        "rating": {
-          "English": "6.8",
-          "Arabic": "6.8"
-        }
-      },
-      {
-        "id": 63,
-        "title": {
-          "English": "Frankenweenie",
-          "Arabic": "فرانكنويني"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BY2QwM2QyOTMtYTM5Yy00NzNlLWIzM2MtZDI1YjlmZTc0MmI3XkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A young boy brings his pet dog back to life with unintended consequences, leading him on a journey of discovery and acceptance.",
-          "Arabic": "يُعيد فتى صغير كلبه الأليف إلى الحياة بتبعات غير مقصودة، مما يقوده في رحلة من الاكتشاف والقبول."
-        },
-        "video": "https://www.youtube.com/watch?v=dzHOC9t2YXg",
-        "rating": {
-          "English": "6.9",
-          "Arabic": "6.9"
-        }
-      },
-      {
-        "id": 64,
-        "title": {
-          "English": "Wreck-It Ralph",
-          "Arabic": "ريك-إت رالف"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BNzMxNTExOTkyMF5BMl5BanBnXkFtZTcwMzEyNDc0OA@@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "Wreck-It Ralph, a video game villain, wants to be loved and respected as much as the hero of the game, so he embarks on an adventure to change his fate.",
-          "Arabic": "ريك-إت رالف، وهو شرير في لعبة فيديو، يريد أن يُحب ويُحترم مثل بطل اللعبة، لذا ينطلق في مغامرة لتغيير مصيره."
-        },
-        "video": "https://www.youtube.com/watch?v=87Pp3g5B8X0",
-        "rating": {
-          "English": "7.7",
-          "Arabic": "7.7"
-        }
-      },
-      {
-        "id": 65,
-        "title": {
-          "English": "Frozen",
-          "Arabic": "فروزن"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "When their kingdom becomes trapped in eternal winter, two sisters embark on a perilous journey to find the source of the curse and save their land.",
-          "Arabic": "عندما يصبح مملكتهم محاصرة في شتاء أبدي، تنطلق الأختان في رحلة محفوفة بالمخاطر للعثور على مصدر اللعنة وإنقاذ أرضهما."
-        },
-        "video": "https://www.youtube.com/watch?v=TbQm5doF_Uc",
-        "rating": {
-          "English": "7.4",
-          "Arabic": "7.4"
-        }
-      },
-      {
-        "id": 66,
-        "title": {
-          "English": "Big Hero 6",
-          "Arabic": "بيغ هيرو 6"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BYzcyZjg4YjAtMGRmNC00M2MzLTkyZTMtNjU1Y2Q2MTg5MTdlXkEyXkFqcGdeQXVyOTU2NDAzNDE@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A robotics prodigy and his robot companion team up with their friends to fight a mysterious villain in a futuristic city.",
-          "Arabic": "مخترع روبوت شاب ورفيقه الروبوت يتعاونان مع أصدقائهما لمحاربة شرير غامض في مدينة مستقبلية."
-        },
-        "video": "https://www.youtube.com/watch?v=z3bJb5ukOf4",
-        "rating": {
-          "English": "7.8",
-          "Arabic": "7.8"
-        }
-      },
-      {
-        "id": 67,
-        "title": {
-          "English": "Zootopia",
-          "Arabic": "زوتوبيا"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "In a city of anthropomorphic animals, a bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
-          "Arabic": "في مدينة من الحيوانات ذات الصفات البشرية، يجب على شرطية أرنب وفاكس محتال ساخر العمل معًا لكشف مؤامرة."
-        },
-        "video": "https://www.youtube.com/watch?v=jWM0ct-OLsM",
-        "rating": {
-          "English": "8.0",
-          "Arabic": "8.0"
-        }
-      },
-      {
-        "id": 68,
-        "title": {
-          "English": "Moana",
-          "Arabic": "موانا"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BMjI4MzU5NTExNF5BMl5BanBnXkFtZTgwNzY1MTEwMDI@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "A young girl sets sail on a daring mission to save her people, discovering her own identity and the meaning of bravery along the way.",
-          "Arabic": "فتاة شابة تنطلق في مهمة جريئة لإنقاذ شعبها، مكتشفة هويتها ومعنى الشجاعة على طول الطريق."
-        },
-        "video": "https://www.youtube.com/watch?v=LKFuXETZUsI",
-        "rating": {
-          "English": "7.6",
-          "Arabic": "7.6"
-        }
-      },
-      {
-        "id": 69,
-        "title": {
-          "English": "Ralph Breaks the Internet",
-          "Arabic": "رالف يكسر الإنترنت"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BYTM3Yjk0MTgtODJmOC00YzkwLTg2ODgtZDc2ZDBmNTk2YzU0XkEyXkFqcGdeQXVyOTU2NDAzNDE@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "Ralph and Vanellope venture into the world of the internet to find a missing part for Vanellope’s game, encountering new challenges.",
-          "Arabic": "رالف وفانيلوب ينطلقان إلى عالم الإنترنت للبحث عن جزء مفقود من لعبة فانيلوب، ويواجهان تحديات جديدة."
-        },
-        "video": "https://www.youtube.com/watch?v=wzJdI9Nbo5M",
-        "rating": {
-          "English": "7.0",
-          "Arabic": "7.0"
-        }
-      },
-      {
-        "id": 70,
-        "title": {
-          "English": "Frozen II",
-          "Arabic": "فروزن 2"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "Queen Elsa and her sister Anna journey into an ancient forest to discover the truth about Elsa’s powers and save their kingdom.",
-          "Arabic": "الملكة إلسا وأختها آنا تنطلقان إلى غابة قديمة لاكتشاف الحقيقة وراء قوى إلسا وإنقاذ مملكتهما."
-        },
-        "video": "https://www.youtube.com/watch?v=Zi4LMpSDccc",
-        "rating": {
-          "English": "6.8",
-          "Arabic": "6.8"
-        }
-      },
-      {
-        "id": 71,
-        "title": {
-          "English": "Raya and the Last Dragon",
-          "Arabic": "رايا والتنين الأخير"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BODI0ZDgwYjAtZmQ1Ni00ODcxLTkyNWUtOGU4M2U3MmY3ZTAxXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "Raya embarks on a journey to find the last dragon and save her kingdom from a dark force that threatens to destroy it.",
-          "Arabic": "رايا تنطلق في رحلة للعثور على آخر تنين وإنقاذ مملكتها من قوة مظلمة تهدد بتدميرها."
-        },
-        "video": "https://www.youtube.com/watch?v=1VIZ89ybkMI",
-        "rating": {
-          "English": "7.3",
-          "Arabic": "7.3"
-        }
-      },
-      {
-        "id": 72,
-        "title": {
-          "English": "Encanto",
-          "Arabic": "إنكانتو"
-        },
-        "image": "https://m.media-amazon.com/images/M/MV5BNjE5NzA4ZDctOTJkZi00NzM0LTkwOTYtMDI4MmNkMzIxODhkXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX1000_.jpg",
-        "description": {
-          "English": "The Madrigal family, blessed with unique magical powers, must discover the true meaning of family and belonging to save their home.",
-          "Arabic": "عائلة مادريجال، المباركة بقوى سحرية فريدة، يجب أن تكتشف المعنى الحقيقي للعائلة والانتماء لإنقاذ منزلهم."
-        },
-        "video": "https://www.youtube.com/watch?v=CaimKeDc1Lk",
-        "rating": {
-          "English": "7.2",
-          "Arabic": "7.2"
-        }
+      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "rating": {
+        "English": "5.3",
+        "Arabic": "٥.٣"
       }
-    
-]
+    },
+    {
+      "id": "50",
+      "title": {
+        "English": "Valiant",
+        "Arabic": "فاليانت"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BYWQ4ZDVhMDUtNTFjNi00YWE1LWI0NTMtYTZhZTFlZTE2NWY2XkEyXkFqcGdeQXVyNjIzODI5OTQ@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A brave pigeon joins a secret army to fight against the enemy forces.",
+        "Arabic": "يشارك حمامة شجاعة في جيش سري للقتال ضد القوات المعادية."
+      },
+      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "rating": {
+        "English": "5.5",
+        "Arabic": "٥.٥"
+      }
+    },
+    {
+      "id": "51",
+      "title": {
+        "English": "Home on the Range",
+        "Arabic": "في المنزل على المدى"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BYWIyNWEwZDctMzkzNC00NzkyLTk5YWUtOWQ5MzBhMGE1NTE4XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A group of cows work together to save their ranch from a notorious criminal.",
+        "Arabic": "يعمل مجموعة من الأبقار معًا لإنقاذ مزرعتهم من مجرم معروف."
+      },
+      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "rating": {
+        "English": "5.4",
+        "Arabic": "٥.٤"
+      }
+    },
+    {
+      "id": "53",
+      "title": {
+        "English": "The Wild",
+        "Arabic": "البرية"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQ5ODgzNjQ3OF5BMl5BanBnXkFtZTcwNTYyMTQzMQ@@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A group of zoo animals are mistakenly shipped to Africa and must find their way back home.",
+        "Arabic": "يتم شحن مجموعة من الحيوانات إلى أفريقيا عن طريق الخطأ ويجب عليها العودة إلى وطنها."
+      },
+      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "rating": {
+        "English": "5.2",
+        "Arabic": "٥.٢"
+      }
+    },
+    {
+      "id": "54",
+      "title": {
+        "English": "Meet the Robinsons",
+        "Arabic": "تعرف على عائلة روبنسون"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BMjQyNzdmNmUtODkwMi00NWM2LWIzNTAtMWY3OTVmM2Q5NTUyXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A young boy invents a time machine and travels to the future, meeting a family of strange characters.",
+        "Arabic": "يخترع صبي آلة زمن ويسافر إلى المستقبل حيث يلتقي بعائلة من الشخصيات الغريبة."
+      },
+      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "rating": {
+        "English": "6.8",
+        "Arabic": "٦.٨"
+      }
+    },
+    {
+      "id": "55",
+      "title": {
+        "English": "Roadside Romeo",
+        "Arabic": "روميو على جانب الطريق"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BOTlhNjM4NTYtZmRlNC00Y2UwLWFhY2QtNDM2NDFiZjU1OWQ4XkEyXkFqcGdeQXVyMjAzMjcxNTE@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A stray dog in Mumbai attempts to find love while facing the challenges of the streets.",
+        "Arabic": "يحاول كلب ضال في مومباي أن يجد الحب بينما يواجه تحديات الشوارع."
+      },
+      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "rating": {
+        "English": "4.8",
+        "Arabic": "٤.٨"
+      }
+    },
+    {
+      "id": "56",
+      "title": {
+        "English": "Bolt",
+        "Arabic": "بولت"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BNDQyNDE5NjQ1N15BMl5BanBnXkFtZTcwMDExMTAwMg@@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A dog who stars in a fictional TV show believes he has superpowers and goes on an adventure to save his owner.",
+        "Arabic": "كلب يعتقد أنه يمتلك قوى خارقة ويتوجه في مغامرة لإنقاذ مالكه."
+      },
+      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "rating": {
+        "English": "6.8",
+        "Arabic": "٦.٨"
+      }
+    },
+    {
+      "id": "57",
+      "title": {
+        "English": "A Christmas Carol",
+        "Arabic": "ترنيمة عيد الميلاد"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BMTM1MTI5ODU4MV5BMl5BanBnXkFtZTcwNTYyNTU4Mg@@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "The classic Charles Dickens tale of Ebenezer Scrooge and his redemption at Christmas.",
+        "Arabic": "القصة الكلاسيكية لتشارلز ديكنز عن إيبينيزر سكروج وتوبته في عيد الميلاد."
+      },
+      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "rating": {
+        "English": "6.8",
+        "Arabic": "٦.٨"
+      }
+    },
+    {
+      "id": "58",
+      "title": {
+        "English": "The Princess and the Frog",
+        "Arabic": "الأميرة والضفدع"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BNmJkZjk1OTUtNzQ3NC00M2I1LTgzNTQtYzk4MmMyNDk0MTY3XkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A hardworking waitress gets transformed into a frog after kissing a prince who has been turned into one by an evil witch.",
+        "Arabic": "تحولت نادلة مجتهدة إلى ضفدع بعد أن قبّلت أميرًا تم تحويله إلى ضفدع بواسطة ساحرة شريرة."
+      },
+      "video": "https://www.youtube.com/watch?v=8KfheU7VdC0",
+      "rating": {
+        "English": "7.1",
+        "Arabic": "7.1"
+      }
+    },
+    {
+      "id": "59",
+      "title": {
+        "English": "Tangled",
+        "Arabic": "رابنزل"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BZjcyYTk0MzEtNTI1MS00MTBhLWJkYjItNzUzMTQ4MzI5MzEyXkEyXkFqcGdeQXVyOTU2NDAzNDE@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A young runaway princess with magical long golden hair, a bandit, and a horse embark on a journey to find her real parents and the truth about her past.",
+        "Arabic": "أميرة شابة هاربة ذات شعر ذهبي سحري طويل، مع لص وحصان ينطلقون في رحلة للعثور على والديها الحقيقيين واكتشاف حقيقة ماضيها."
+      },
+      "video": "https://www.youtube.com/watch?v=fiHqUwAJ6Ck",
+      "rating": {
+        "English": "7.7",
+        "Arabic": "7.7"
+      }
+    },
+    {
+      "id": "60",
+      "title": {
+        "English": "Mars Needs Moms",
+        "Arabic": "المريخ يحتاج إلى أمهات"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BOTA0MTQ2Mzc3N15BMl5BanBnXkFtZTcwNzA4ODAwNA@@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A young boy named Milo teams up with a Martian teenager to save his mom from an evil race of Martians who are planning to steal her memories.",
+        "Arabic": "يتعاون فتى شاب يدعى ميلو مع مراهق من المريخ لإنقاذ والدته من عرق شرير من المريخيين الذين يخططون لسرقة ذكرياتها."
+      },
+      "video": "https://www.youtube.com/watch?v=RYFF47FT4lA",
+      "rating": {
+        "English": "5.4",
+        "Arabic": "5.4"
+      }
+    },
+    {
+      "id": "61",
+      "title": {
+        "English": "Winnie the Pooh",
+        "Arabic": "ويني ذا بوه"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BYzBlYTJkMGQtYzQ4MS00Zjk3LTk4MmEtYTZiNTEzNmRlMjUxXkEyXkFqcGdeQXVyMzI0NDc4ODY@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "Winnie the Pooh and his friends try to rescue Christopher Robin from an imaginary creature called the 'Backson.'",
+        "Arabic": "يستعين ويني ذا بوه وأصدقاؤه لإنقاذ كريستوفر روبين من مخلوق خيالي يُسمى 'باكسون'."
+      },
+      "video": "https://www.youtube.com/watch?v=Lfdi_pWqN78",
+      "rating": {
+        "English": "7.1",
+        "Arabic": "7.1"
+      }
+    },
+    {
+      "id": "62",
+      "title": {
+        "English": "Arjun: The Warrior Prince",
+        "Arabic": "أرجون: الأمير المحارب"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BNzQ5NjMyOWUtNTE5Yy00NjhmLWJmMjAtM2Q1MmMwNDZjMDIxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "The story of the great warrior Arjun, his battles, and his heroic journey in the Mahabharata, one of the greatest epics of India.",
+        "Arabic": "قصة المحارب العظيم أرجون، معاركه، ورحلته البطولية في المهابهاراتا، أحد أعظم الأساطير الهندية."
+      },
+      "video": "https://www.youtube.com/watch?v=g_YlHtFGxmw",
+      "rating": {
+        "English": "6.8",
+        "Arabic": "6.8"
+      }
+    },
+    {
+      "id": "63",
+      "title": {
+        "English": "Frankenweenie",
+        "Arabic": "فرانكنويني"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BY2QwM2QyOTMtYTM5Yy00NzNlLWIzM2MtZDI1YjlmZTc0MmI3XkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A young boy brings his pet dog back to life with unintended consequences, leading him on a journey of discovery and acceptance.",
+        "Arabic": "يُعيد فتى صغير كلبه الأليف إلى الحياة بتبعات غير مقصودة، مما يقوده في رحلة من الاكتشاف والقبول."
+      },
+      "video": "https://www.youtube.com/watch?v=dzHOC9t2YXg",
+      "rating": {
+        "English": "6.9",
+        "Arabic": "6.9"
+      }
+    },
+    {
+      "id": "64",
+      "title": {
+        "English": "Wreck-It Ralph",
+        "Arabic": "ريك-إت رالف"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BNzMxNTExOTkyMF5BMl5BanBnXkFtZTcwMzEyNDc0OA@@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "Wreck-It Ralph, a video game villain, wants to be loved and respected as much as the hero of the game, so he embarks on an adventure to change his fate.",
+        "Arabic": "ريك-إت رالف، وهو شرير في لعبة فيديو، يريد أن يُحب ويُحترم مثل بطل اللعبة، لذا ينطلق في مغامرة لتغيير مصيره."
+      },
+      "video": "https://www.youtube.com/watch?v=87Pp3g5B8X0",
+      "rating": {
+        "English": "7.7",
+        "Arabic": "7.7"
+      }
+    },
+    {
+      "id": "65",
+      "title": {
+        "English": "Frozen",
+        "Arabic": "فروزن"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "When their kingdom becomes trapped in eternal winter, two sisters embark on a perilous journey to find the source of the curse and save their land.",
+        "Arabic": "عندما يصبح مملكتهم محاصرة في شتاء أبدي، تنطلق الأختان في رحلة محفوفة بالمخاطر للعثور على مصدر اللعنة وإنقاذ أرضهما."
+      },
+      "video": "https://www.youtube.com/watch?v=TbQm5doF_Uc",
+      "rating": {
+        "English": "7.4",
+        "Arabic": "7.4"
+      }
+    },
+    {
+      "id": "66",
+      "title": {
+        "English": "Big Hero 6",
+        "Arabic": "بيغ هيرو 6"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BYzcyZjg4YjAtMGRmNC00M2MzLTkyZTMtNjU1Y2Q2MTg5MTdlXkEyXkFqcGdeQXVyOTU2NDAzNDE@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A robotics prodigy and his robot companion team up with their friends to fight a mysterious villain in a futuristic city.",
+        "Arabic": "مخترع روبوت شاب ورفيقه الروبوت يتعاونان مع أصدقائهما لمحاربة شرير غامض في مدينة مستقبلية."
+      },
+      "video": "https://www.youtube.com/watch?v=z3bJb5ukOf4",
+      "rating": {
+        "English": "7.8",
+        "Arabic": "7.8"
+      }
+    },
+    {
+      "id": "67",
+      "title": {
+        "English": "Zootopia",
+        "Arabic": "زوتوبيا"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "In a city of anthropomorphic animals, a bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+        "Arabic": "في مدينة من الحيوانات ذات الصفات البشرية، يجب على شرطية أرنب وفاكس محتال ساخر العمل معًا لكشف مؤامرة."
+      },
+      "video": "https://www.youtube.com/watch?v=jWM0ct-OLsM",
+      "rating": {
+        "English": "8.0",
+        "Arabic": "8.0"
+      }
+    },
+    {
+      "id": "68",
+      "title": {
+        "English": "Moana",
+        "Arabic": "موانا"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BMjI4MzU5NTExNF5BMl5BanBnXkFtZTgwNzY1MTEwMDI@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "A young girl sets sail on a daring mission to save her people, discovering her own identity and the meaning of bravery along the way.",
+        "Arabic": "فتاة شابة تنطلق في مهمة جريئة لإنقاذ شعبها، مكتشفة هويتها ومعنى الشجاعة على طول الطريق."
+      },
+      "video": "https://www.youtube.com/watch?v=LKFuXETZUsI",
+      "rating": {
+        "English": "7.6",
+        "Arabic": "7.6"
+      }
+    },
+    {
+      "id": "69",
+      "title": {
+        "English": "Ralph Breaks the Internet",
+        "Arabic": "رالف يكسر الإنترنت"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BYTM3Yjk0MTgtODJmOC00YzkwLTg2ODgtZDc2ZDBmNTk2YzU0XkEyXkFqcGdeQXVyOTU2NDAzNDE@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "Ralph and Vanellope venture into the world of the internet to find a missing part for Vanellope’s game, encountering new challenges.",
+        "Arabic": "رالف وفانيلوب ينطلقان إلى عالم الإنترنت للبحث عن جزء مفقود من لعبة فانيلوب، ويواجهان تحديات جديدة."
+      },
+      "video": "https://www.youtube.com/watch?v=wzJdI9Nbo5M",
+      "rating": {
+        "English": "7.0",
+        "Arabic": "7.0"
+      }
+    },
+    {
+      "id": "70",
+      "title": {
+        "English": "Frozen II",
+        "Arabic": "فروزن 2"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "Queen Elsa and her sister Anna journey into an ancient forest to discover the truth about Elsa’s powers and save their kingdom.",
+        "Arabic": "الملكة إلسا وأختها آنا تنطلقان إلى غابة قديمة لاكتشاف الحقيقة وراء قوى إلسا وإنقاذ مملكتهما."
+      },
+      "video": "https://www.youtube.com/watch?v=Zi4LMpSDccc",
+      "rating": {
+        "English": "6.8",
+        "Arabic": "6.8"
+      }
+    },
+    {
+      "id": "71",
+      "title": {
+        "English": "Raya and the Last Dragon",
+        "Arabic": "رايا والتنين الأخير"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BODI0ZDgwYjAtZmQ1Ni00ODcxLTkyNWUtOGU4M2U3MmY3ZTAxXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "Raya embarks on a journey to find the last dragon and save her kingdom from a dark force that threatens to destroy it.",
+        "Arabic": "رايا تنطلق في رحلة للعثور على آخر تنين وإنقاذ مملكتها من قوة مظلمة تهدد بتدميرها."
+      },
+      "video": "https://www.youtube.com/watch?v=1VIZ89ybkMI",
+      "rating": {
+        "English": "7.3",
+        "Arabic": "7.3"
+      }
+    },
+    {
+      "id": "72",
+      "title": {
+        "English": "Encanto",
+        "Arabic": "إنكانتو"
+      },
+      "image": "https://m.media-amazon.com/images/M/MV5BNjE5NzA4ZDctOTJkZi00NzM0LTkwOTYtMDI4MmNkMzIxODhkXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX1000_.jpg",
+      "description": {
+        "English": "The Madrigal family, blessed with unique magical powers, must discover the true meaning of family and belonging to save their home.",
+        "Arabic": "عائلة مادريجال، المباركة بقوى سحرية فريدة، يجب أن تكتشف المعنى الحقيقي للعائلة والانتماء لإنقاذ منزلهم."
+      },
+      "video": "https://www.youtube.com/watch?v=CaimKeDc1Lk",
+      "rating": {
+        "English": "7.2",
+        "Arabic": "7.2"
+      }
+    }
+ 
+  ]
 }
