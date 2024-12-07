@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid2';
 
 import { Form, Formik } from 'formik';
 import * as yup from 'yup';
+import axios from 'axios';
 
 
 const isArabic = (text) => /[\u0600-\u06FF]/.test(text); 
@@ -42,10 +43,11 @@ function AddMovie({language}) {
     const validationSchema = getValidationSchema(language);
     const formikRef = useRef(null);
 
+
   // Reset the form when language changes using formikRef
   useEffect(() => {
     if (formikRef.current) {
-      formikRef.current.resetForm();
+        formikRef.current.resetForm();
     }
   }, [language]);
 
@@ -83,7 +85,9 @@ function AddMovie({language}) {
         }}
         validationSchema={validationSchema}
         onSubmit={(values) => {
-            alert(JSON.stringify    (values, null, 2));     
+          const { EnglishTitle, ArabicTitle, EnglishDescription, ArabicDescription, image, video } = values;
+
+            axios.post('http://localhost:7000/movies', values)    
         }
         
     }>

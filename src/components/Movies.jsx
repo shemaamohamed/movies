@@ -30,15 +30,21 @@ const StyledCard = styled(Card)(({ theme }) => ({
 function Movies({language}) {
     const [hoveredIndex, setHoveredIndex] = useState(null);
     const [page, setPage] = useState(1);
+    const [loader,setLoader] =useState(true);
     const cartoons = useSelector((state) => state.movies.movies);
     const dispatch = useDispatch();
     useEffect(() => {
+        setTimeout(()=>{
         axios.get('http://localhost:7000/cartoons')
         .then((response) => {
             dispatch(setMovies(response.data));
+            setLoader(false)
         }).catch((error) => {
+            setLoader(true)
             console.error('Error fetching data: ', error);
         });
+            }
+        ,1000)    
     }, [dispatch]);
     const filteredCartoons = cartoons.slice((page - 1) * 6, page * 6);
     const arabicPage={
