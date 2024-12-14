@@ -66,7 +66,7 @@ const Footer = ({language}) => {
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline />
-            <AppBar className={classes.AppBar} position="static" >
+            <AppBar className={classes.AppBar} position="absolute" >
             <img src={shape8} alt="shape8" className={classes.shape8} />
             <Grid container 
                  >
@@ -74,7 +74,6 @@ const Footer = ({language}) => {
                      size={{ xs: 12, md: 12,alignItems:'center' }}
                    >
                          <Box className={classes.Box}>
-                        {/* <img src={logo}  alt="logo" style={{ height: '30px',zIndex:'992'}}  /> */}
                         <Typography variant="h6" align="center">
                             {language==='Arabic' ?'اكتشف عالمًا من المرح والمغامرة':'Discover a world of fun '}
                         </Typography>

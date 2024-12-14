@@ -21,20 +21,20 @@ const getValidationSchema = (language) => {
 
 return yup.object().shape({
     EnglishTitle: language === 'English' 
-    ? commonValidation.test('is-english', 'This field should be in English', (value) => isEnglish(value)).label('Enter movie English Title') 
-    : commonValidation.test('is-english', 'هذا الحقل يجب أن يكون بالأنجليزية', (value) => isEnglish(value)).label('أدخل عنوان الفيلم بالأنجليزية'),
+    ? commonValidation.test('is-english', 'This field should be in English', (value) => isEnglish(value)) 
+    : commonValidation.test('is-english', 'هذا الحقل يجب أن يكون بالأنجليزية', (value) => isEnglish(value)),
     
   ArabicTitle: language === 'Arabic' 
-    ? commonValidation.test('is-arabic', 'هذا الحقل يجب أن يكون بالعربية', (value) => isArabic(value)).label('أدخل عنوان الفيلم بالعربي')
-    : commonValidation.test('is-arabic', 'This field should be in Arabic', (value) => isArabic(value)).label('Enter movie Arabic Title'),
+    ? commonValidation.test('is-arabic', 'هذا الحقل يجب أن يكون بالعربية', (value) => isArabic(value))
+    : commonValidation.test('is-arabic', 'This field should be in Arabic', (value) => isArabic(value)),
     
   EnglishDescription: language === 'English'
-    ? commonValidation.min(8, 'Description should be of minimum 8 characters length').test('is-english', 'This field should be in English', (value) => isEnglish(value)).label('Enter movie English Description')
-    : commonValidation.min(8, 'الوصف يجب أن يكون بطول 8 أحرف على الأقل').test('is-english', 'هذا الحقل يجب أن يكون بالأنجليزية', (value) => isEnglish(value)).label('أدخل وصف الفيلم بالأنجليزية'),
+    ? commonValidation.min(8, 'Description should be of minimum 8 characters length').test('is-english', 'This field should be in English', (value) => isEnglish(value))
+    : commonValidation.min(8, 'الوصف يجب أن يكون بطول 8 أحرف على الأقل').test('is-english', 'هذا الحقل يجب أن يكون بالأنجليزية', (value) => isEnglish(value)),
     
   ArabicDescription: language === 'Arabic'
-    ? commonValidation.min(8, 'الوصف يجب أن يكون بطول 8 أحرف على الأقل').test('is-arabic', 'هذا الحقل يجب أن يكون بالعربية', (value) => isArabic(value)).label('أدخل وصف الفيلم بالعربي')
-    : commonValidation.min(8, 'Description should be of minimum 8 characters length').test('is-arabic', 'This field should be in Arabic', (value) => isArabic(value)).label('Enter movie Arabic Description'),
+    ? commonValidation.min(8, 'الوصف يجب أن يكون بطول 8 أحرف على الأقل').test('is-arabic', 'هذا الحقل يجب أن يكون بالعربية', (value) => isArabic(value))
+    : commonValidation.min(8, 'Description should be of minimum 8 characters length').test('is-arabic', 'This field should be in Arabic', (value) => isArabic(value)),
         
     image: commonValidation.label(language === 'English' ? 'Enter movie image URL' : 'أدخل رابط صورة الفيلم'),
     
@@ -69,13 +69,8 @@ function AddMovie({language}) {
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        width: {
-            xs: '100%', 
-            sm: '100%', 
-            md: '75%',  
-            lg: '60%',  
-
-        },
+        height:'80vh',
+      
         marginTop:'12vh'
     }}
     >
